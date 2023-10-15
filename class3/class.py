@@ -33,4 +33,4 @@ if password == "1234":
     print("歡迎光零")
 # if else
 else:
-    print(米馬錯誤)
+    print("米馬錯誤")
