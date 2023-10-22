@@ -8,3 +8,10 @@
 
 # 請輸入華氏溫度:ABC
 # 輸入錯誤!
+try=
+    f = input("請使用者輸入華氏")
+    c=(f-32)*5/9
+    print('f:'+str(f)+"度c"+str(c)+"度")
+
+     except:
+    print("發生錯誤")
