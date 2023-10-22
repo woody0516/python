@@ -28,9 +28,9 @@
 # or其中一個對
 # if 敘述
 # 當使用者輸入密碼時,顯示歡迎光鈴
-password = input("請輸入你的密碼")
-if password == "1234":
-    print("歡迎光零")
-# if else
-else:
-    print("米馬錯誤")
+# password = input("請輸入你的密碼")
+# if password == "1234":
+#     print("歡迎光零")
+# # if else
+# else:
+#     print("米馬錯誤")
