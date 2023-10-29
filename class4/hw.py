@@ -45,3 +45,14 @@ elif bmi >= 20.8:
 # c = 100
 # 無法構成三角形
 # """
+a = float(input("a="))
+b = float(input("b="))
+c = float(input("c="))
+if a + b > c and a + c > b and b + c > a:
+    print(f"周:{(a+b+c)}")
+
+    p = (a + b + c) / 2
+    area = (p * (p - a) * (p - b) * (p - c)) ** 0.5
+    print(f"面積:{area}")
+else:
+    print("無法構成山腳型")
