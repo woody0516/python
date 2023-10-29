@@ -3,8 +3,8 @@
 #     print("歡迎光鈴john")
 # elif password=="5678":
 #     print(歡迎ray)
-# else:
-#     print('密碼錯誤')
+else:
+    print('密碼錯誤')
 # score = int(input("請輸入成績"))
 # if score >= 90:
 #     print("A")
