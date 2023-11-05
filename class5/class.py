@@ -28,6 +28,6 @@ while password != "1234":
     if password == "1234":
         print("歡迎光鈴john")
     elif password == "5678":
-        print(歡迎ray)
+        print("歡迎ray")
     else:
         print("密碼錯誤")
