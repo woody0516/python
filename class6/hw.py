@@ -34,9 +34,9 @@ EX:
   * 
   * 
 """
-word = int(input("請輸入要印出的箭頭大小"))
+n = int(input("請輸入要印出的箭頭大小"))
 for i in range(n):
-    print("" * (n - 1 - i) + "*" * (i * 2 + 1))
+    print(" " * (n - 1 - i) + "*" * (i * 2 + 1))
 
-for i in range(n)
-print(""*(n-1)+"*")
+for i in range(n):
+    print(" " * (n - 1) + "*")
