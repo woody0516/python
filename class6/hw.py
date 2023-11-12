@@ -14,6 +14,9 @@ EX
 18
 """
 word = int(input("請輸入一個數字"))
+for i in range(1, word + 1):
+    if i % 3 == 0 or i % 7 == 0:
+        print(i)
 
 """
 請輸入要印出的箭頭大小
@@ -31,3 +34,9 @@ EX:
   * 
   * 
 """
+word = int(input("請輸入要印出的箭頭大小"))
+for i in range(n):
+    print("" * (n - 1 - i) + "*" * (i * 2 + 1))
+
+for i in range(n)
+print(""*(n-1)+"*")
