@@ -24,21 +24,23 @@ def delete():
 
 
 grade = {}
+option = [add, delete, exit]
 while True:
     for subject, score in grade.items():
         print(subject + ":" + str(score))
     print("1. 新增科目成績")
     print("2. 刪除科目成績")
     print("3. 提交所有成績並顯示平均")
-    select = input("請輸入功能編號:")
-    if select == "1":
-        add()
+    try:
+        select = int(input("請輸入功能編號"))
 
-    elif select == "2":
-        delete()
-
-    elif select == "3":
-        exit()
-        break
+    except:
+        print("輸入錯誤，請重新輸入")
     else:
-        print("查無此功能請重新輸入")
+        if select > len(option) or select < 1:
+            print("輸入錯誤，請重新輸入")
+        elif select == len(option):
+            exit()
+            break
+        else:
+            option[select - 1]()
